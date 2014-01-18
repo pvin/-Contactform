@@ -1,4 +1,9 @@
 <%= form_for @message, :url => contact_path do |form| %>
+
+    <% @message.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+    <% end %>
+
     <fieldset class="fields">
       <div class="field">
         <%= form.label :name %>
