@@ -1,7 +1,7 @@
 Form::Application.routes.draw do
 
-  match 'contact' => 'contact#new', :as => 'contact', :via => :get
-  match 'contact' => 'contact#create', :as => 'contact', :via => :post
+  match 'message' => 'message#new', :as => 'message', :via => :get
+  match 'message' => 'message#create', :as => 'message', :via => :post
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

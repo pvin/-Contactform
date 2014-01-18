@@ -38,7 +38,7 @@ module Form
         :port                 => 587,
         :domain               => "gmail.com",
         :user_name            => "praaveen.ece@gmail.com ",
-        :password             => "alwaystest",
+        :password             => "alwaystestme",
         :authentication       => :plain,
         :enable_starttls_auto => true
     }
